@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<title>DOM Select Menu</title>
+    <script type="text/javascript" src="cookies.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</head><body onload = "doFetch();">
+    <div id="choose">
+        <h1>Please choose a font size that you feel the most comfortable with.</h1>
+        <button onclick = "chooseFontSize(this)" value = 1>small</button>
+        <button onclick = "chooseFontSize(this)" value = 1.5>medium</button>
+        <button onclick = "chooseFontSize(this)" value = 2>large</button>
+    </div>
+    <h1>This is a select option menu built dynamically.</h1>
+    <div id="selectMenu"></div>
+    <!--<script type="text/javascript">init('0');</script> can this work? //-->
+</body>
+</html>
